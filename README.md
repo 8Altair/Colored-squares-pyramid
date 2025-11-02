@@ -7,6 +7,9 @@ and draw multiple colored squares that form a pyramid sitting on a ground plane.
 The project was created to show the usage of **WebGL** for interactive 2-D graphics in the browser  
 and to illustrate how to combine the **gl-matrix** library with WebGL to manage transformation matrices.
 
+
+**Live website:** https://8altair.github.io/Colored-squares-pyramid/
+
 ---
 
 ## Project Structure
