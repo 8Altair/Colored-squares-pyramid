@@ -158,19 +158,19 @@
       const groundColor = new Float32Array([0.55, 0.55, 0.55, 1.0]);    // Gray floor
       const squareColors =
           [
-              new Float32Array([1.0, 0.2, 0.2, 1.0]),
-              new Float32Array([0.2, 1.0, 0.2, 1.0]),
-              new Float32Array([0.2, 0.6, 1.0, 1.0]),
-              new Float32Array([1.0, 0.6, 0.2, 1.0]),
+              new Float32Array([1.0, 0.2, 0.2, 1.0]),   // Red
+              new Float32Array([0.2, 1.0, 0.2, 1.0]),   // Green
+              new Float32Array([0.2, 0.6, 1.0, 1.0]),   // Blue
+              new Float32Array([1.0, 0.6, 0.2, 1.0]),   // Orange
 
-              new Float32Array([0.90, 0.10, 0.90, 1.0]),
-              new Float32Array([1.00, 1.00, 0.30, 1.0]),
-              new Float32Array([0.10, 0.90, 0.90, 1.0]),
+              new Float32Array([0.90, 0.10, 0.90, 1.0]),    // Magenta
+              new Float32Array([1.00, 1.00, 0.30, 1.0]),    // Yellow
+              new Float32Array([0.10, 0.90, 0.90, 1.0]),    // Cyan/aqua
 
-              new Float32Array([0.95, 0.50, 0.20, 1.0]),
-              new Float32Array([0.30, 0.80, 0.40, 1.0]),
+              new Float32Array([0.95, 0.50, 0.20, 1.0]),    // Tangerine
+              new Float32Array([0.30, 0.80, 0.40, 1.0]),    // Emerald green
 
-              new Float32Array([0.9, 0.3, 0.4, 1.0]),
+              new Float32Array([0.9, 0.3, 0.4, 1.0]),   // Pink
           ];
 
       const colorSpeedAndDirection = squareColors.map(() =>
